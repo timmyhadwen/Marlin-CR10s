@@ -424,7 +424,7 @@
       #endif
 
       #define BTN_ENC           35
-      #define SD_DETECT_PIN     49
+      #define SD_DETECT_PIN     -1
       #define KILL_PIN          41
 
       #if ENABLED(BQ_LCD_SMART_CONTROLLER)
@@ -436,7 +436,7 @@
       #define BTN_EN1           64
       #define BTN_EN2           59
       #define BTN_ENC           63
-      #define SD_DETECT_PIN     42
+      #define SD_DETECT_PIN     -1
 
     #elif ENABLED(LCD_I2C_PANELOLU2)
 
@@ -453,7 +453,7 @@
       #define BTN_ENC           -1
 
       #define LCD_SDSS          SDSS
-      #define SD_DETECT_PIN     49
+      #define SD_DETECT_PIN     -1
 
     #elif ENABLED(VIKI2) || ENABLED(miniVIKI)
 
@@ -485,7 +485,7 @@
       #define BTN_ENC           31
 
       #define LCD_SDSS          SDSS
-      #define SD_DETECT_PIN     49
+      #define SD_DETECT_PIN     -1
       #define KILL_PIN          41
 
     #elif ENABLED(MKS_MINI_12864)   // Added in Marlin 1.1.6
@@ -508,7 +508,7 @@
       #define BTN_EN2           33
       #define BTN_ENC           35
 
-      #define SD_DETECT_PIN     49
+      #define SD_DETECT_PIN     -1
       #define KILL_PIN          64
 
     #elif ENABLED(MINIPANEL)
@@ -531,7 +531,7 @@
       #define BTN_EN2           63
       #define BTN_ENC           59
 
-      #define SD_DETECT_PIN     49
+      #define SD_DETECT_PIN     -1
       #define KILL_PIN          64
 
     #elif ENABLED(ZONESTAR_LCD)
@@ -562,7 +562,7 @@
       #endif
 
       #if ENABLED(G3D_PANEL)
-        #define SD_DETECT_PIN   49
+        #define SD_DETECT_PIN   -1
         #define KILL_PIN        41
       #endif
 
